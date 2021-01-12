@@ -1,0 +1,9 @@
+@import "partials/_variables";
+@import "partials/_common";
+@import "partials/_mixins";
+@import "partials/_navbar";
+@import "partials/_header";
+
+body {
+  background-color: $brandColor; 
+}

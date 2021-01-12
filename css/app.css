@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-background {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+.navbar-background .navbar-container {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+.navbar-background .navbar-container .navbar-left {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+.navbar-background .navbar-container .navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+.navbar-background .navbar-container .navbar-right ul {
+  list-style: none;
+}
+.navbar-background .navbar-container .navbar-right ul li {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin-left: 30px;
+}
+.navbar-background .navbar-container .navbar-right ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.navbar-background .navbar-container .navbar-right button {
+  width: 95px;
+  height: 40px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #03a5d1, #1f3e83);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  margin-left: 50px;
+}
+.navbar-background .navbar-container .navbar-right button:hover {
+  background-image: linear-gradient(to right, #f65760, #af2262);
+}
+
+body {
+  background-color: #0b1952;
+}

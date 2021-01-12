@@ -1,0 +1,51 @@
+.navbar-background {
+  width: $fullWidth;
+  height: 100px;
+  padding: 10px;
+  .navbar-container {
+    width: 65%;
+    height: $fullHeight;
+    display: flex;
+    margin: auto;
+    .navbar-left {
+      display: flex;
+      align-items: center;
+      width: 20%;
+      height: $fullHeight;
+    }
+    .navbar-right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 80%;
+      height: $fullHeight;
+      ul {
+        list-style: none;
+        li {
+          display: inline-block;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: lighter;
+          margin-left: 30px;
+          a {
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+      button {
+        width: 95px;
+        height: 40px;
+        border-radius: 25px;
+        background-image: $buttonPrimary;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        border: 0;
+        margin-left: 50px;
+        &:hover {
+          background-image: $buttonSecond;
+        }
+      }
+    }
+  }
+}
