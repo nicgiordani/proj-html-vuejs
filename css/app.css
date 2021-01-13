@@ -11,7 +11,7 @@
   padding: 10px;
 }
 .navbar-background .navbar-container {
-  width: 65%;
+  width: 75%;
   height: 100%;
   display: flex;
   margin: auto;
@@ -46,6 +46,7 @@
 .navbar-background .navbar-container .navbar-right button {
   width: 95px;
   height: 40px;
+  cursor: pointer;
   border-radius: 25px;
   background-image: linear-gradient(to right, #03a5d1, #1f3e83);
   color: white;
@@ -59,13 +60,13 @@
 
 .header-background {
   width: 100%;
-  height: 90vh;
+  height: 1050px;
   background-color: #0b1952;
   margin-bottom: 70px;
 }
 .header-background .header-container {
   margin: auto;
-  width: 65%;
+  width: 75%;
   height: 100%;
   display: flex;
 }
@@ -95,6 +96,7 @@
 .header-background .header-container .header-left #button1 {
   width: 170px;
   height: 50px;
+  cursor: pointer;
   border-radius: 30px;
   background-image: linear-gradient(to right, #f65760, #af2262);
   color: white;
@@ -111,6 +113,7 @@
 .header-background .header-container .header-left #button2 {
   width: 170px;
   height: 50px;
+  cursor: pointer;
   border-radius: 30px;
   background-image: linear-gradient(to right, #03a5d1, #1f3e83);
   color: white;
@@ -137,7 +140,7 @@
   background-color: white;
 }
 .our-services .top {
-  width: 65%;
+  width: 75%;
   height: 200px;
   margin: auto;
   text-align: center;

@@ -24,7 +24,7 @@
         list-style: none;
         li {
           display: inline-block;
-          font-family: 'Roboto', sans-serif;
+          font-family: $font;
           font-weight: lighter;
           a {
             cursor: pointer;
@@ -37,10 +37,11 @@
       button {
         width: 95px;
         height: 40px;
+        cursor: pointer;
         border-radius: 25px;
         background-image: $buttonPrimary;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: $font;
         border: 0;
         margin-left: 50px;
         &:hover {

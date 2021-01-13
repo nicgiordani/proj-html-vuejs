@@ -1,6 +1,6 @@
 .header-background {
   width: $fullWidth;
-  height: 90vh;
+  height: 1050px;
   background-color: $brandColor;
   margin-bottom: 70px;
   .header-container {
@@ -12,7 +12,7 @@
       width: 50%;
       height: $fullHeight;
       h1 {
-        font-family: 'Roboto', sans-serif;
+        font-family: $font;
         font-weight: bolder;
         font-size: 60px;
         color: white;
@@ -23,7 +23,7 @@
         }
       }
       p {
-        font-family: 'Roboto', sans-serif;
+        font-family: $font;
         font-weight: lighter;
         font-size: 18px;
         color: #048dba;
@@ -33,10 +33,11 @@
       #button1 {
         width: 170px;
         height: 50px;
+        cursor: pointer;
         border-radius: 30px;
         background-image: $buttonSecond;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: $font;
         font-weight: lighter;
         font-size: 18px;
         border: 0;
@@ -49,10 +50,11 @@
       #button2 {
         width: 170px;
         height: 50px;
+        cursor: pointer;
         border-radius: 30px;
         background-image: $buttonPrimary;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: $font;
         font-weight: lighter;
         font-size: 18px;
         border: 0;
