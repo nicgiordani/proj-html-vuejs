@@ -1,0 +1,29 @@
+.our-services {
+  width: $fullWidth;
+  height: 90vh;
+  background-color: white;
+  .top {
+    width: $height65;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    span {
+      font-family: 'Roboto', sans-serif;
+      color: red;
+      font-weight: lighter;
+    }
+    h2 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      font-size: 50px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+    }
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-weight: lighter;
+      font-size: 18px;
+    }
+  }
+}

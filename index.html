@@ -7,54 +7,79 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- vuejs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <!-- link css -->
     <link rel="stylesheet" href="css/app.css">
     <title>Phlox Corporate</title>
   </head>
   <body>
-    <!-- navbar -->
-    <div class="navbar-background">
-      <div class="navbar-container">
+    <div id="root">
 
-        <div class="navbar-left">
-          <img src="images/white-logo-2.png" alt="">
-        </div>
+      <!-- navbar -->
+      <div class="navbar-background">
+        <div class="navbar-container">
 
-        <div class="navbar-right">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">Portfolio</a></li>
-          </ul>
+          <div class="navbar-left">
+            <img src="images/white-logo-2.png" alt="">
+          </div>
 
-          <button type="button" name="button">Sign in</button>
+          <div class="navbar-right">
+            <ul>
+              <li><a v-for="link in links" href="#">{{ link }}</a></li>
+              <!-- <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Portfolio</a></li> -->
+            </ul>
+
+            <button type="button" name="button">Sign in</button>
+          </div>
         </div>
       </div>
+      <!-- /navbar -->
+      <!-- header -->
+      <header>
+        <div class="header-background">
+          <div class="header-container">
+            <div class="header-left">
+              <h1>Business Planning <br> <span>Digital Technology</span> <br> Modern Solution !</h1>
+              <p>When, while the lovely valley teems with vapour around <br> meand the meridian sun strikes the upper surface .</p>
+              <button id="button1" type="button" name="button">Try it Now</button>
+              <button id="button2" type="button" name="button">Explore More</button>
+            </div>
+            <div class="header-right">
+              <img src="images/header.png" alt="">
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /header -->
+
+      <main>
+
+        <div class="our-services">
+          <div class="top">
+            <span>Our Services</span>
+            <h2> <strong>What </strong>We Do</h2>
+            <p>When, while the lovely valley teems with vapour around meand the</p>
+
+          </div>
+          <div class="center">
+
+          </div>
+          <div class="bottom">
+
+          </div>
+
+        </div>
+
+      </main>
+
+
     </div>
-    <!-- /navbar -->
-    <!-- header -->
-    <header>
-      <div class="header-background">
-        <div class="header-container">
-          <div class="header-left">
-            <h1>Business Planning <br> <span>Digital Technology</span> <br> Modern Solution !</h1>
-            <p>When, while the lovely valley teems with vapour around <br> meand the meridian sun strikes the upper surface .</p>
-            <button id="button1" type="button" name="button">Try it Now</button>
-            <button id="button2" type="button" name="button">Explore More</button>
-          </div>
-          <div class="header-right">
-            <img src="images/header.png" alt="">
-          </div>
-        </div>
 
-      </div>
-
-    </header>
-    <!-- /header -->
-
-
-
+    <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
