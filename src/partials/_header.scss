@@ -1,8 +1,7 @@
 .header-background {
   width: $fullWidth;
-  height: 1050px;
-  background-color: $brandColor;
-  margin-bottom: 70px;
+  height: 950px;
+  background: $brandColor;
   .header-container {
     margin: auto;
     width: $height65;
@@ -16,7 +15,7 @@
         font-weight: bolder;
         font-size: 60px;
         color: white;
-        margin-top: 270px;
+        margin-top: 200px;
         line-height: 80px;
         span {
           font-weight: lighter;

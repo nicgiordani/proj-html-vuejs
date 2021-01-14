@@ -5,13 +5,13 @@
 }
 
 .navbar-background {
-  position: fixed;
+  background: #0b1953;
   width: 100%;
   height: 100px;
   padding: 10px;
 }
 .navbar-background .navbar-container {
-  width: 75%;
+  width: 80%;
   height: 100%;
   display: flex;
   margin: auto;
@@ -60,13 +60,12 @@
 
 .header-background {
   width: 100%;
-  height: 1050px;
-  background-color: #0b1952;
-  margin-bottom: 70px;
+  height: 950px;
+  background: linear-gradient(to top, #01012f, #0b1953);
 }
 .header-background .header-container {
   margin: auto;
-  width: 75%;
+  width: 80%;
   height: 100%;
   display: flex;
 }
@@ -79,7 +78,7 @@
   font-weight: bolder;
   font-size: 60px;
   color: white;
-  margin-top: 270px;
+  margin-top: 200px;
   line-height: 80px;
 }
 .header-background .header-container .header-left h1 span {
@@ -136,14 +135,16 @@
 
 .our-services {
   width: 100%;
-  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
+  padding: 50px;
 }
 .our-services .top {
-  width: 75%;
-  height: 200px;
+  width: 80%;
   margin: auto;
   text-align: center;
+  margin-bottom: 100px;
 }
 .our-services .top span {
   font-family: "Roboto", sans-serif;
@@ -161,4 +162,100 @@
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-size: 18px;
+}
+.our-services .service {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 570px;
+  width: calc(100% / 4);
+  padding: 30px;
+}
+.our-services .service .data {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: white;
+  margin: auto;
+}
+.our-services .service .data .service-icon {
+  width: 70%;
+}
+.our-services .service .blue-box {
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+  transition: background-color 3s linear;
+}
+.our-services .service .blue-box h2 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 25px;
+  margin-top: 70px;
+}
+.our-services .service .blue-box p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 17px;
+  margin-top: 30px;
+  line-height: 22px;
+  font-weight: lighter;
+}
+.our-services .service .circle-arrow {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 465px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: linear-gradient(to right, #f65760, #af2262);
+}
+.our-services .service .circle-arrow i {
+  font-size: 15px;
+  color: white;
+}
+.our-services .service:hover .data {
+  box-shadow: 0 3px 40px #02023040;
+}
+.our-services .service:hover .blue-box {
+  background: linear-gradient(to top, #01012f, #0b1953);
+}
+.our-services .service:hover h2 {
+  color: white !important;
+}
+.our-services .service:hover p {
+  color: white !important;
+}
+.our-services .service:hover .circle-arrow {
+  opacity: 1;
+}
+.our-services #button1 {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #f65760, #af2262);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  border: 0;
+  margin-top: 50px;
+}
+.our-services #button1:hover {
+  background-image: linear-gradient(to right, #03a5d1, #1f3e83);
 }
