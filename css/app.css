@@ -259,3 +259,229 @@
 .our-services #button1:hover {
   background-image: linear-gradient(to right, #03a5d1, #1f3e83);
 }
+
+.start-background {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(to top, #01012f, #0b1953);
+}
+.start-background .start-container {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+.start-background .start-container .start-left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.start-background .start-container .start-left #man-img {
+  width: 45%;
+  position: absolute;
+  top: 150px;
+}
+.start-background .start-container .start-left #wall-img {
+  width: 45%;
+  position: absolute;
+  top: 90px;
+}
+.start-background .start-container .start-right {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.start-background .start-container .start-right h5 {
+  margin-top: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+  line-height: 30px;
+}
+.start-background .start-container .start-right h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: white;
+  line-height: 80px;
+}
+.start-background .start-container .start-right h1 span {
+  font-weight: lighter;
+}
+.start-background .start-container .start-right p {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #048dba;
+  margin-top: 40px;
+  line-height: 30px;
+}
+.start-background .start-container .start-right #button1 {
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #f65760, #af2262);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  border: 0;
+  margin-right: 30px;
+  margin-top: 80px;
+}
+.start-background .start-container .start-right #button1:hover {
+  background-image: linear-gradient(to right, #03a5d1, #1f3e83);
+}
+.start-background .start-container .start-right #button2 {
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #03a5d1, #1f3e83);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  border: 0;
+  margin-top: 80px;
+}
+.start-background .start-container .start-right #button2:hover {
+  background-image: linear-gradient(to right, #f65760, #af2262);
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-top: 200px;
+  background: linear-gradient(to top, #01012f, #0b1953);
+  display: flex;
+  justify-content: center;
+}
+footer .subscribe-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -150px;
+  width: 80%;
+  height: 280px;
+  background: linear-gradient(to right, #f65760, #af2262);
+  border-radius: 40px;
+}
+footer .subscribe-box .call-to-action {
+  position: absolute;
+  left: 30px;
+}
+footer .subscribe-box .call-to-action h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 50px;
+}
+footer .subscribe-box .call-to-action p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 17px;
+  margin-top: 20px;
+  line-height: 22px;
+  font-weight: lighter;
+}
+footer .subscribe-box .email-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 30px;
+  width: 35%;
+  height: 65px;
+  background-color: white;
+  border-radius: 40px;
+}
+footer .subscribe-box .email-box input {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: grey;
+  font-weight: lighter;
+  left: 30px;
+  border: 0;
+}
+footer .subscribe-box .email-box button {
+  position: absolute;
+  right: 10px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #03a5d1, #1f3e83);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  border: 0;
+}
+footer .subscribe-box .email-box button:hover {
+  background-image: linear-gradient(to right, #f65760, #af2262);
+}
+footer .footer-center {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .footer-center .footer-logo {
+  margin-top: 200px;
+  width: calc(100% / 5);
+  padding: 20px;
+}
+footer .footer-center .footer-logo p {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-size: 17px;
+  margin-top: 40px;
+  line-height: 22px;
+  font-weight: lighter;
+}
+footer .footer-center .footer-nav {
+  margin-top: 200px;
+  width: calc(100% / 5);
+  padding: 20px;
+}
+footer .footer-center .footer-nav h3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+footer .footer-center .footer-nav ul {
+  list-style: none;
+  margin-top: 70px;
+}
+footer .footer-center .footer-nav ul li {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 17px;
+  line-height: 30px;
+}
+footer .footer-center .footer-nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 17px;
+  line-height: 30px;
+  cursor: pointer;
+}
+footer .footer-center .footer-nav ul li span {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 30px;
+}

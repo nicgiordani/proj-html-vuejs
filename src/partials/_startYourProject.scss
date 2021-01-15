@@ -1,0 +1,95 @@
+.start-background {
+  width: $fullWidth;
+  height: 800px;
+  background: $brandColor;
+  .start-container {
+    margin: auto;
+    width: $height65;
+    height: $fullHeight;
+    display: flex;
+    .start-left {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: $fullHeight;
+      #man-img {
+        width: 45%;
+        position: absolute;
+        top: 150px;
+      }
+      #wall-img {
+        width: 45%;
+        position: absolute;
+        top: 90px;
+      }
+    }
+    .start-right {
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: $fullHeight;
+      h5 {
+        margin-top: 150px;
+        font-family: $font;
+        font-weight: lighter;
+        font-size: 18px;
+        color: white;
+        line-height: 30px;
+      }
+      h1 {
+        font-family: $font;
+        font-weight: bolder;
+        font-size: 60px;
+        color: white;
+        line-height: 80px;
+        span {
+          font-weight: lighter;
+        }
+      }
+      p {
+        font-family: $font;
+        font-weight: lighter;
+        font-size: 18px;
+        color: #048dba;
+        margin-top: 40px;
+        line-height: 30px;
+      }
+      #button1 {
+        width: 170px;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 30px;
+        background-image: $buttonSecond;
+        color: white;
+        font-family: $font;
+        font-weight: lighter;
+        font-size: 18px;
+        border: 0;
+        margin-right: 30px;
+        margin-top: 80px;
+        &:hover {
+          background-image: $buttonPrimary;
+        }
+      }
+      #button2 {
+        width: 170px;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 30px;
+        background-image: $buttonPrimary;
+        color: white;
+        font-family: $font;
+        font-weight: lighter;
+        font-size: 18px;
+        border: 0;
+        margin-top: 80px;
+        &:hover {
+          background-image: $buttonSecond;
+        }
+      }
+    }
+  }
+}

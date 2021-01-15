@@ -1,0 +1,129 @@
+footer {
+  position: relative;
+  width: $fullWidth;
+  height: 600px;
+  margin-top: 200px;
+  background: $brandColor;
+  display: flex;
+  justify-content: center;
+  .subscribe-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -150px;
+    width: $height65;
+    height: 280px;
+    background: $buttonSecond;
+    border-radius: 40px;
+    .call-to-action {
+      position: absolute;
+      left: 30px;
+      h2 {
+        font-family: $font;
+        color: white;
+        font-size: 50px;
+      }
+      p {
+        font-family: $font;
+        color: white;
+        font-size: 17px;
+        margin-top: 20px;
+        line-height: 22px;
+        font-weight: lighter;
+      }
+    }
+    .email-box {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      right: 30px;
+      width: 35%;
+      height: 65px;
+      background-color: white;
+      border-radius: 40px;
+      input {
+      position: absolute;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      color: grey;
+      font-weight: lighter;
+      left: 30px;
+      border: 0;
+      }
+      button {
+        position: absolute;
+        right: 10px;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 30px;
+        background-image: $buttonPrimary;
+        color: white;
+        font-family: $font;
+        font-weight: lighter;
+        font-size: 18px;
+        border: 0;
+        &:hover {
+          background-image: $buttonSecond;
+        }
+      }
+    }
+  }
+  .footer-center {
+    width: $height65;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .footer-logo {
+      margin-top: 200px;
+      width: calc(100% / 5);
+      padding: 20px;
+      p {
+        font-family: $font;
+        color: grey;
+        font-size: 17px;
+        margin-top: 40px;
+        line-height: 22px;
+        font-weight: lighter;
+      }
+    }
+    .footer-nav {
+      margin-top: 200px;
+      width: calc(100% / 5);
+      padding: 20px;
+      h3 {
+        font-family: $font;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+      }
+      ul {
+        list-style: none;
+        margin-top: 70px;
+        li {
+          font-family: $font;
+          color: grey;
+          font-weight: lighter;
+          font-size: 17px;
+          line-height: 30px;
+          a {
+            text-decoration: none;
+            font-family: $font;
+            color: grey;
+            font-weight: lighter;
+            font-size: 17px;
+            line-height: 30px;
+            cursor: pointer;
+          }
+          span {
+            font-family: $font;
+            color: white;
+            font-size: 17px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
